@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ydg-fD-yQy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xbc-2k-c8Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Iphone" translatesAutoresizingMaskIntoConstraints="NO" id="f3m-Wv-xhF">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="812"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by Adslive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PF2-Ad-DgN">
+                                <rect key="frame" x="113.66666666666669" y="678" width="149" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.govnews.co.za" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxN-rM-vdY">
+                                <rect key="frame" x="130.66666666666666" y="707" width="114" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WxN-rM-vdY" firstAttribute="centerX" secondItem="PF2-Ad-DgN" secondAttribute="centerX" id="0h5-H7-4Gj"/>
+                            <constraint firstItem="xbc-2k-c8Z" firstAttribute="top" secondItem="WxN-rM-vdY" secondAttribute="bottom" constant="56" id="Deb-KS-i3m"/>
+                            <constraint firstAttribute="bottom" secondItem="f3m-Wv-xhF" secondAttribute="bottom" id="QOo-fR-otU"/>
+                            <constraint firstItem="f3m-Wv-xhF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ue4-Vq-keb"/>
+                            <constraint firstItem="f3m-Wv-xhF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="YqK-NM-opL"/>
+                            <constraint firstItem="WxN-rM-vdY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="r4R-iI-sOV"/>
+                            <constraint firstItem="WxN-rM-vdY" firstAttribute="top" secondItem="PF2-Ad-DgN" secondAttribute="bottom" constant="8" symbolic="YES" id="rvO-64-JcK"/>
+                            <constraint firstItem="f3m-Wv-xhF" firstAttribute="centerX" secondItem="WxN-rM-vdY" secondAttribute="centerX" id="vev-0e-Oew"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.5" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Iphone" width="2048" height="2732"/>
+    </resources>
+</document>

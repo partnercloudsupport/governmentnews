@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "531739142723",
+    "firebase_url": "https://govnews-fd3f2.firebaseio.com",
+    "project_id": "govnews-fd3f2",
+    "storage_bucket": "govnews-fd3f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531739142723:android:9976e32084176d47",
+        "android_client_info": {
+          "package_name": "co.za.govnews.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531739142723-4blduehb1fvccsimc4aadtc0eic2ge0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyUaCWyOf_MWmHLxwAkvzOW4wapFYdGJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
